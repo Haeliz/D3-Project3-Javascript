@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Muppets</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.jpg">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>A world of furry puppets<span class="bp-icon bp-icon-about" data-content="The Muppet Show is a tv show created by Jim Henson that aired from the 70ies to the 90ies"></span></span>
+			<h1>The Characters of the Muppet Show</h1>
+			<nav>
+
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/kermit.jpg" alt="kermit" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Leader</span>Kermit the Frog</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/miss-piggy.jpg" alt="Piggy" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The First Lady</span>Miss Piggy</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/fozzie.jpg" alt="Fozzie" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Funny Guy</span> Fozzie the Bear</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/gonzo.jpg" alt="Gonzo" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Loser</span>Gonzo</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/swedishcook.jpg" alt="Swedish Cook" />
+						<div class="preview rounded">
+
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Swedish Cook</span>The Swedish Cook</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/kermit-sitting.jpg" alt="Kermit-sitting" />
+				<div class="content__item-inner">
+					<h2>Kermit The Frog</h2>
+					<h3>Comes from the swamps of Mississippi</h3>
+					<p>Kermit is a very joyful but stressfull frog. He can be very playful with his friends sometimes and also very sarcastic. He loves biking and has a very delicate way to do it. He is leading the Muppet Show and tries to handle things the best he can with his little sticky hands.</p>
+					<p><a href="https://en.wikipedia.org/wiki/Kermit_the_Frog#Character_biography">Learn more about Kermit &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/piggysing.jpg" alt="Piggy-singing" />
+				<div class="content__item-inner">
+					<h2>Miss Piggy</h2>
+					<h3>A real diva after all !</h3>
+					<p>This Lady is Kermit's wife, that makes her the first lady of the Muppet Show. She is a very strong sow with big karate skills. She is very jealous and protects her man at all costs. She's the lead singer and showgirl of the Muppets.</p>
+					<p><a href="https://en.wikipedia.org/wiki/Miss_Piggy">Learn more about Miss Piggy &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/fozziejoke.jpg" alt="Fozzie-laughing" />
+				<div class="content__item-inner">
+					<h2>Fozzie the Bear</h2>
+					<h3>Intellectuaaaaaaaaal !</h3>
+					<p>He's famous for his sens of humour, he does believe he's the funniest guy in the Muppet Show, and in fact, he is maybe. Maybe. But nobody quite thinks that way. He's used to execute poorly comic presentations inbetween other shows. Thanks to his Ma, at least there's someone laughing at his jokes.</p>
+					<p><a href="https://en.wikipedia.org/wiki/Fozzie_Bear">Learn more about Fozzie &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/gonzorocket.jpg" alt="Gonzo-flying" />
+				<div class="content__item-inner">
+					<h2>Gonzo</h2>
+					<h3>The rocket man</h3>
+					<p>Indeed, he's the first creature in The Muppet Show who has tested the rocket man show. He has tried many times shooting himself within the air. With approximate results. He almost died numerous times. Fun fact, one day he got his arms stretched like a rope. He calls himself Gonzo The Great.</p>
+					<p><a href="https://en.wikipedia.org/wiki/Gonzo_(Muppet)">Learn more about Gonzo &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/swedishcata.jpg" alt="The-swedish-chef-cooking-" />
+				<div class="content__item-inner">
+					<h2>The Swedish Cook</h2>
+					<h3>"Jag ska laga denna levande kyckling"</h3>
+					<p>We don't really know much about The Swedish Chef, because no one can really understand him except Kermit. He's supposed to be a chef but everything that he tries to cook end up being a catastrophe. Sometimes it feels like God is against him, because his own ingredients are...alive.</p>
+						<p><a href="https://en.wikipedia.org/wiki/Swedish_Chef">Learn more about The Swedish Cook &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
